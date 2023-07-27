@@ -120,7 +120,8 @@
 
 - Python==3.8
 
-      git clone https://github.com/Yu-Miri/Judgment_Recommendation_System.git          pip install -U sentence-transformers
+      git clone https://github.com/Yu-Miri/Judgment_Recommendation_System.git
+      pip install -U sentence-transformers
 
 ### train
 

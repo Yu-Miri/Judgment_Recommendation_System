@@ -4,10 +4,12 @@
 - **기간** : 2023.02.16 ~ 2023.03.09
 - **프로젝트 진행 인원** : 3명
 - **주요 업무 및 상세 역할**
-  - **크롤링** : 판결문을 학습시키기 위해 판결문 내용 크롤링을 맡았습니다.
-  - **데이터 전처리** : 1차적으로 한글, 공백을 제외한 문자나 숫자 제거 후에 전처리를 거친 데이터 확인을 통해 ‘가’,’나’,’다’ 등의 글머리 및 ‘사건 개요’ 등의 형식적 단어를 선정하여 불용어 사전을 제작하여 모델의 성능을 개선하였습니다.
-  - **Custom Dataset 구축** : SBERT 모델을 Fine Tuning하기 위해 Pretrained Model의 학습 데이터셋 구조를 파악하여 프로젝트의 Task에 맞게 Custom STS Dataset을 구축하였습니다.
-  - **모델링** : Custom STS Dataset의 성능을 비교하여 KoBERTa 모델을 학습하였으며, 추가로 Total Dataset을 학습시켜 성능을 개선하였습니다.
+    - 프로젝트 **주제 선정 및 계획 수립**
+    - 판결문 **크롤링**
+    - 불용어 사전 제작 및 **데이터 전처리**
+    - 사전 학습된 SBERT 모델의 데이터셋 구조를 파악하여 **Custom Dataset 생성**
+    - 구축한 데이터셋을 학습시키면서 KoBERTa **모델의 성능 평가 및 모델 핸들링**
+    - 프로젝트 **발표자료 작성**
 - **사용언어 및 개발환경** : Google colab Pro+, Python, BeautifulSoup, Mac OS, Pytorch, Tensorflow, Pandas, Re, Hugging Face, VSCode, Slack
 
 ## 문제 정의

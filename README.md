@@ -4,12 +4,10 @@
 - **기간** : 2023.02.16 ~ 2023.03.09
 - **프로젝트 진행 인원** : 3명
 - **주요 업무 및 상세 역할**
-    - 프로젝트 **주제 선정 및 계획 수립**
     - 판결문 **크롤링**
     - 불용어 사전 제작 및 **데이터 전처리**
     - 사전 학습된 SBERT 모델의 데이터셋 구조를 파악하여 **Custom Dataset 생성**
     - 구축한 데이터셋을 학습시키면서 KoBERTa **모델의 성능 평가 및 모델 핸들링**
-    - 프로젝트 **발표자료 작성**
 - **사용언어 및 개발환경** : Google colab Pro+, Python, BeautifulSoup, Mac OS, Pytorch, Tensorflow, Pandas, Re, Hugging Face, VSCode, Slack
 
 ## 문제 정의
